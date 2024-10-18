@@ -79,7 +79,6 @@ def send_telegram_message(message):
         print(f"Error during Telegram API request: {e}")
 
 
-
 new_cryptos = get_newly_listed_cryptos()
 
 if new_cryptos:
@@ -104,4 +103,3 @@ if new_cryptos:
         send_telegram_message(message)
 else:
     send_telegram_message("No new cryptocurrencies listed today.")
-
