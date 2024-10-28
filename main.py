@@ -1,6 +1,6 @@
 import os
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Get API keys from environment variables
 API_KEY = os.getenv('COINMARKETCAP_API_KEY')
